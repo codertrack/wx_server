@@ -1,0 +1,20 @@
+{application, wx_server,
+  [{description, "An weixinServer application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {wx_server_app, []}},
+    {applications,
+      [kernel,
+        stdlib,
+        ranch,
+        cowboy,
+        mnesia,
+        xmerl
+      ]},
+    {env, []},
+    {modules, []},
+
+    {maintainers, []},
+    {licenses, []},
+    {links, []}
+  ]}.

@@ -1,0 +1,6 @@
+-sname wx_server
+
+-setcookie wx_server_cookie
+
++K true
++A30
